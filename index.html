@@ -1,122 +1,24 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz 1</title>
+ <title>Login Page</title>
+ <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <table align="center">
-        <h1 align="center" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Purchase Order Request Form</h1>
-        <tr>
-            <td>Req. No: _______________</td>
-            <td>Purchase Order. No: _______________</td>
-        </tr>
-        <tr>
-            <td>Account. No: _______________</td>
-            <td>Account Name: _______________</td>
-        </tr>
-        <tr>
-            <td>Professor's Name: _______________</td>
-            <td>Signature: _______________</td>
-        </tr>
-        <tr>
-            <td>Your Name: _______________</td>
-            <td>Your E-mail: _______________</td>
-            <td>Your Phone Number:_______________</td>
-        </tr>
-        <tr>
-            <td>Special instruction: </td>
-        </tr>
-            <table align="center" border="1" style="border-collapse: collapse;" width="55%">
-                <tr>
-                    <td> Item <br> No. </td>
-                    <td> Description </td>
-                    <td> Quantity </td>
-                    <td align="center">Unit<br>(each, pkg, case)</td>
-                    <td align="center">Per-Unit Price</td>
-                    <td align="center">Line item Total <br>Price</td>
-                </tr>
-                <tr>
-                    <td><br><br><br></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><br><br><br></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><br><br><br></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><br><br><br></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><br><br><br></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-        </table>
-    <table align="center">
-        <tr>
-            <td><label class="container" align="center">
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>    
-            </label>In Stock
-    
-            <label class="container" align="center">
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>    
-            </label>Lead Time: _______________</td>
-            <td style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Total Price: _______________</td>
-        </tr>
-        <tr>
-            <td>Shipping Preference
-            <label class="container" align="center">
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>    
-            </label>Ground
-            <label class="container" align="center">
-                <input type="checkbox" checked="checked">
-                <span class="checkmark"></span>    
-            </label>Express</td>
-        </tr>
-        <tr>
-            <td>Complete Name Vendor: _______________</td>
-            <td>Name of Contact: _______________</td>
-        </tr>
-        <tr>
-            <td>Address Vendor: _______________</td>
-            <td>Contact's phone Number: _______________</td>
-        </tr>
-        <tr>
-            <td>______________________________</td>
-            <td>Contact's Fax Number: _______________</td>
-        </tr>
-        <tr>
-            <td align="center"><br>Please attach any web or email or faxes quotation receive from vendor.</td>
-        </tr>
-    </table>
+ <div class="container">
+ <h2>Login</h2>
+ <form action="#">
+ <label for="fname">Username:</label><br>
+ <input type="text" id="fname" name="fname"><br>
+ <label for="lname">Password:</label><br>
+ <input type="password" id="lname" name="lname"><br>
+ <input type="submit" value="Login">
+ </form>
+ <p>Forgot password? <a href="#">Click here</a></p>
+ <p>Or sign up using:</p>
+ <button class="social-button"><i class="fab fa-google"></i> Google</button>
+ <button class="social-button"><i class="fab fa-facebook-f"></i> Facebook</button>
+ <p>Don't have an account? <a href="#">Sign up</a></p>
+ </div>
 </body>
 </html>
